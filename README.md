@@ -1,33 +1,27 @@
-# Machine learning classifier for music genres
-Project for a Aalto university course CS-E3210 - Machine Learning: Basic Principles.
+# Bachelor thesis: Inverse problem for resistor networks
 
 ## Abstract
-This data analysis project focuses on a multiclass musical genre classification problem. Pre-extracted summary characteristics of the data are further preprocessed using a median absolute deviation based feature selection method and supervised principal component analysis. The prediction power of a support vector machine is optimized using micro-averaged f1-score and multiclass logarithmic loss as evaluation metrics. Succesful predictions are made for the labels of the majority classes, while compromising minority class prediction accuracy. This is deemed acceptable as the data are significantly skewed.
+This thesis presents the mathematics behind a grid-based temperature sensor. In addition, it also applies the computational theory to exemplary surfaces. This grid sensor could be utilized in many fields of industry. It would offer effortless and precise temperature measurements around any subject. This could uncover previously undetected heat dissipation and increase the stability of an industrial process. 
 
-## Kaggle
+The sensor is a grid-like structure with nodes and edges. A resistance is assigned to each edge. Since temperature can be derived from resistance, the temperature distribution can be obtained when resistance of the grid is known. 
 
-This classifier placed in the top 8% in two Kaggle competions. 
-
-- Accuracy: 65.2%, Place: 30/406, [evaluation metric: accuracy](https://www.kaggle.com/c/mlbp-data-analysis-challenge-accuracy-2018/leaderboard)
-- Log-loss: 0.16982, Place: 26/371, [evaluation metric: log-loss](https://www.kaggle.com/c/mlbp-data-analysis-challenge-log-loss-2018/leaderboard)
+The resistance is obtained by formulating a non-linear ill-posed inverse problem using only boundary measurements and the topology of the grid. The problem is then solved using the Gauss-Newton algorithm paired with Tikhonov regularization. A Laplacian matrix with the Neumann boundary condition was used for regularization. The algorithm is found to converge on accurate solutions when the parameters reflect both the application and the environment.
 
 
-## Instructions for viewing
-One must be able to compile a Jupyter Notebook for effortless reading. If code is extracted to a stand-alone file, a separate Python compiler must be used. 
-
-Running cells is not nessesery for viewing, but if one wishes to run the cells, the following files must be included in the root directory: 
-
-1. get.py (auxiliary functions)
-2. sPCA.py (sPCA implementation)
-3. test_data.csv
-4. train_data.csv
-5. train_labels.csv
+## Remarks
+The final results, error analysis, and convergence are not recorded as in, but can rather be derived from the core code with minimal effort. The code contains references to the /doc/thesis.pdf.
 
 
-## Prerequisites
-Built on Jupyter Notebook 7.2.0 and Python 3.7
+## Software prerequisites
+Built on Matlab 2017b.
 
-## Authors
 
-- [Rustam Latypov](mailto:rustam.latypov@aalto.fi)
-- [Kalle Alaluusua](mailto:kalle.alaluusua@aalto.fi)
+## Author
+[Rustam Latypov](mailto:rustam.latypov@aalto.fi)
+
+
+## Acknowledgements
+Supervisor and instructor of Bachelor thesis: [Antti Hannukainen](mailto:antti.hannukainen@aalto.fi)
+
+
+
