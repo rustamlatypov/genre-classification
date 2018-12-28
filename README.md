@@ -1,4 +1,5 @@
 # Machine learning classifier for music genres
+Project for a Aalto university course CS-E3210 - Machine Learning: Basic Principles.
 
 ## Abstract
 This data analysis project focuses on a multiclass musical genre classification problem. Pre-extracted summary characteristics of the data are further preprocessed using a median absolute deviation based feature selection method and supervised principal component analysis. The prediction power of a support vector machine is optimized using micro-averaged f1-score and multiclass logarithmic loss as evaluation metrics. Succesful predictions are made for the labels of the majority classes, while compromising minority class prediction accuracy. This is deemed acceptable as the data are significantly skewed.
@@ -8,7 +9,6 @@ This data analysis project focuses on a multiclass musical genre classification 
 This classifier placed in the top 8% in two Kaggle competions. 
 
 - Accuracy: 65.2%, Place: 30/406, [evaluation metric: accuracy](https://www.kaggle.com/c/mlbp-data-analysis-challenge-accuracy-2018/leaderboard)
-
 - Log-loss: 0.16982, Place: 26/371, [evaluation metric: log-loss](https://www.kaggle.com/c/mlbp-data-analysis-challenge-log-loss-2018/leaderboard)
 
 
