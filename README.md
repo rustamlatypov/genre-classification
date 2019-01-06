@@ -2,7 +2,7 @@
 Project for the Aalto university course CS-E3210 - Machine Learning: Basic Principles (fall 2018).
 
 ## Abstract
-This data analysis project focuses on a multiclass music genre classification problem. Pre-extracted summary characteristics of the data are further preprocessed using a median absolute deviation based feature selection method and supervised principal component analysis. The prediction power of a support vector machine is optimized using micro-averaged f1-score and multiclass logarithmic loss as evaluation metrics. Succesful predictions are made for the labels of the majority classes, while compromising minority class prediction accuracy. This is deemed acceptable as the data are significantly skewed.
+This data analysis project focuses on a multiclass music genre classification problem. Pre-extracted summary characteristics of the data are further preprocessed using a median absolute deviation based feature selection method and supervised principal component analysis. The prediction power of a support vector machine is optimized using micro-averaged f1-score and multiclass logarithmic loss as evaluation metrics. Succesful predictions are made for the labels of the majority classes, while compromising minority class prediction accuracy. This is deemed acceptable as the data is significantly skewed.
 
 ## Kaggle
 
@@ -13,7 +13,7 @@ This classifier placed in the top 8% in two Kaggle competions.
 
 
 ## Instructions for viewing
-One must be able to compile a Jupyter Notebook for direct viewing. If code is extracted to a stand-alone file, a separate Python compiler must be used. 
+One must be able to compile a Jupyter Notebook for direct viewing. If code is extracted as a stand-alone file, a separate Python compiler must be used. 
 
 Running cells is not nessesery for viewing, but if one wishes to run the cells, the following files must be included in the root directory: 
 
