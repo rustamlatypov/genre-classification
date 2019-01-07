@@ -6,7 +6,7 @@ Created during October - November, 2018.
 
 ## Abstract
 
-This data analysis project focuses on a multiclass music genre classification problem. Pre-extracted summary characteristics of the data are further preprocessed using a median absolute deviation based feature selection method and supervised principal component analysis. The prediction power of a support vector machine is optimized using micro-averaged f1-score and multiclass logarithmic loss as evaluation metrics. Majority classes are predicted succesfully, while compromising the prediction accuracy of minority classes. This is deemed acceptable as the data is significantly skewed.
+This data analysis project focuses on a multiclass music genre classification problem. Pre-extracted summary characteristics of the data are further preprocessed using a median absolute deviation based feature selection method and supervised principal component analysis. The prediction power of a support vector machine is optimized using micro-averaged f1-score and multiclass logarithmic loss as evaluation metrics. Majority classes are predicted successfully, while compromising the prediction accuracy of minority classes. This is deemed acceptable as the data is significantly skewed.
 
 ## Kaggle
 
