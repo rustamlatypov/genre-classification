@@ -29,7 +29,7 @@ Running cells is not nessesery for viewing, but if one wishes to run the cells, 
 5. train_labels.csv
 
 
-## Prerequisites
+## Software prerequisites
 
 Built on Jupyter Notebook 7.2.0 and Python 3.7.
 
