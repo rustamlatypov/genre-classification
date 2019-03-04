@@ -2,7 +2,7 @@
 
 Project for the Aalto University course CS-E3210 - Machine Learning: Basic Principles.
 
-Created during October - November, 2018.
+Developed during October - November, 2018.
 
 ## Abstract
 
