@@ -1,4 +1,4 @@
-# Machine learning classifier for music genres
+# Using supervised PCA with SVM for music genre classification
 
 Project for the Aalto University course CS-E3210 - Machine Learning: Basic Principles.
 
