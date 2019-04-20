@@ -31,7 +31,8 @@ def vector(filename, include_header):
     return label
 
 def plotting(data, clusters):
-    # this function will later on be used for plotting the clusters and centroids. But now we use it to just make a scatter plot of the data
+    # this function will later on be used for plotting the clusters and centroids. But now we use it
+    # to just make a scatter plot of the data
     # Input: the data as an array, cluster means (centroids), cluster assignemnts in {0,1,...,k-1}
     # Output: a scatter plot of the data in the clusters with cluster means
     plt.style.use('seaborn-notebook')
