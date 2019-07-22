@@ -18,7 +18,7 @@ This classifier placed in the top 8% in two Kaggle competions.
 
 ## Instructions for viewing
 
-One must be able to compile a Jupyter Notebook for direct viewing. If code is extracted as a stand-alone file, a separate Python compiler must be used. 
+One must be able to compile a Jupyter Notebook for direct viewing. If code is extracted as a stand-alone file, a separate Python  interpreter must be used. 
 
 Running cells is not nessesery for viewing, but if one wishes to run the cells, the following files must be included in the root directory: 
 
