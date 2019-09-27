@@ -16,7 +16,7 @@ This classifier placed in the top 8% in two Kaggle competions.
 - Log-loss: 0.1698, Place: 26/371, [evaluation metric: log-loss](https://www.kaggle.com/c/mlbp-data-analysis-challenge-log-loss-2018/leaderboard)
 
 
-## Instructions for viewing
+## Viewing
 
 One must be able to compile a Jupyter Notebook for direct viewing. If code is extracted as a stand-alone file, a separate Python  interpreter must be used. 
 
