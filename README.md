@@ -31,7 +31,7 @@ Running cells is not nessesery for viewing, but if one wishes to run the cells, 
 
 ## Software prerequisites
 
-Built on Jupyter Notebook 7.2.0 and Python 3.7.
+Built with Jupyter Notebook 7.2.0 and Python 3.7.
 
 ## Authors
 
