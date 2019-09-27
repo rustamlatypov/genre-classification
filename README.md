@@ -36,4 +36,4 @@ Built with Jupyter Notebook 7.2.0 and Python 3.7.
 ## Authors
 
 - [Rustam Latypov](mailto:rustam.latypov@aalto.fi)
-- [Kalle Alaluusua](mailto:kalle.alaluusua@aalto.fi)
+- Kalle Alaluusua
