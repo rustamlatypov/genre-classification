@@ -11,7 +11,16 @@ This data analysis project focuses on a multiclass music genre classification pr
 
 ## Running
 
-Built for Jupyter Notebook 7.2.0 with Python 3.7.2.
+Built for Jupyter Notebook 7.2.0 with Python 3.7.2 using
+
+```
+• sklearn
+• statsmodels
+• matplotlib
+• numpy
+• pandas
+• itertools
+```
 
 One must be able to compile a Jupyter Notebook for direct viewing. If code is extracted as a stand-alone file, a separate Python interpreter is needed.
 
