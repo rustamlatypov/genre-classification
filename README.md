@@ -16,22 +16,20 @@ This classifier placed in the top 8% in two Kaggle competions.
 - Log-loss: 0.1698, Place: 26/371, [evaluation metric: log-loss](https://www.kaggle.com/c/mlbp-data-analysis-challenge-log-loss-2018/leaderboard)
 
 
-## Viewing
+## Running
+
+Built for Jupyter Notebook 7.2.0 with Python 3.7.2.
 
 One must be able to compile a Jupyter Notebook for direct viewing. If code is extracted as a stand-alone file, a separate Python interpreter is needed.
 
-Running cells is not nessesery for viewing, but if one wishes to run the cells, the following files must be included in the root directory: 
+Running cells is not necessary for viewing, but if one wishes to run the cells, the following files must be included in the root directory: 
 
-1. get.py (auxiliary functions)
-2. sPCA.py (sPCA implementation)
-3. test_data.csv
-4. train_data.csv
-5. train_labels.csv
+- get.py (auxiliary functions)
+- sPCA.py (sPCA implementation)
+- test_data.csv
+- train_data.csv
+- train_labels.csv
 
-
-## Software prerequisites
-
-Built with Jupyter Notebook 7.2.0 and Python 3.7.
 
 ## Authors
 
