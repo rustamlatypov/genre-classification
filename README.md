@@ -13,7 +13,7 @@ This data analysis project focuses on a multiclass music genre classification pr
 
 Built for IPython 7.1.0 with Python 3.7.0.
 
-One must be able to compile a Jupyter Notebook for direct viewing. If code is extracted as a stand-alone file, a separate Python interpreter is needed.
+A IPython viewer is necessery. If code is extracted as a stand-alone file, a separate Python interpreter is needed.
 
 Running cells is not necessary for viewing, but if one wishes to run the cells, the following files must be included in the root directory: 
 
